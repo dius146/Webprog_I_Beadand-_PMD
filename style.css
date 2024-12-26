@@ -1,11 +1,105 @@
-body{
-    background-color: antiquewhite;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffcca;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
-header{
-    text-align: center;
+header.fejlec {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    text-align: right;
 }
 
-.paros{
-    background-color:azure;
+header .fejlec-felsor {
+    display: flexbox;
+    align-items: center;
 }
+
+.nev {
+    margin-right: 450px; 
+    text-indent: 400px;
+}
+
+.hero {
+    background-image: url('/Képek/Eger.jpg');
+    padding: 75px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hero-szoveg{
+    font-size: 0.8em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px; 
+    max-width: 100%; 
+    max-height: 140px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    margin: 15px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.hero-szoveg .idezet{
+    font-size: 0.8em;
+    word-wrap: break-word;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+
+nav.navigacio {
+    background-color: yellow;
+    color: black;
+    align-items: center;
+}
+
+nav.navigacio a {
+    display: inline-block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav.navigacio .active {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+/* Reszponzív beállítások */
+@media (min-width: 768px) {
+    nav.navigacio {
+        display: flex;
+    }
+
+    nav.navigacio a {
+        padding: 14px 40px;
+    }
+
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    main div {
+        width: 48%;
+    }
+}
+

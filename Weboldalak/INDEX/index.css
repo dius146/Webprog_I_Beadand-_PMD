@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+main div {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#paratlan{
+    background-color: #fffba4;
+    margin-bottom: 20px;
+    overflow: hidden; 
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 100%; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+#paros{
+    background-color: #d0c828;
+    margin-bottom: 20px;
+    overflow: hidden; 
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 100%; 
+    margin-bottom: 20px;
+    overflow: hidden; 
+    padding: 10px; 
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+#kep1{
+    width: 20%; 
+}
+
+#kep3{
+    width: 30%; 
+}
+
+.balra {
+    float: left;
+    margin-right: 20px;
+}
+
+.jobbra {
+    float: right;
+    margin-left: 20px;
+    width: 40%; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#iro{
+    text-align: right;
+}
+
+footer {
+    position:inherit;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    z-index: 100;
+}

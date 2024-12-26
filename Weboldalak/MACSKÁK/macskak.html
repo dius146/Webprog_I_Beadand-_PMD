@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webprog Pásztorné M. Diána</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/Weboldalak/MACSKÁK/macskak.css">
+</head>
+<body>
+    <header class="fejlec">
+        <div class="fejlec-felsor">
+            <span class="nev">Pásztorné Madar Diána</span>
+            <span class="neptun">Neptun kód: P8YRZ8</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-szoveg">
+            <h1 class="oldalcim">Webprog 1 Beadandó</h1>
+            <p class="idezet"><p><q>Soha nem valami ellen küzdöttem, hanem valamiért. Az pedig ott tartott, ahol a küzdelem folyt. Valami ellen bárhol lehet küzdeni a világon. Valamiért csak ott, ahol vagy.</q><br><span id="iro">Náray Tamás</span></p>
+        </div>
+    </section>
+
+    <nav class="navigacio">
+            <a href="/Weboldalak/INDEX/index.html">Rólam</a>
+            <a href="/Weboldalak/CSS/css.html">CSS</a>
+            <a href="/Weboldalak/TODO/todo.html">TODO</a>
+            <a href="/Weboldalak/MACSKÁK/macskak.html" class="active">Macskák</a>
+    </nav>
+    
+    
+    <div class="container">
+        <h1 id="kozep">Nyilvántartás</h1>
+        <div class="filters">
+            Név: <input type="text" id="nameFilter" placeholder="Név szűrés">
+            Származás: <input type="text" id="originFilter" placeholder="Származás szűrés">
+            <button onclick="filterData()">Szűrés</button>
+        </div>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Sorszám</th>
+                    <th>Név</th>
+                    <th>Származás</th>
+                    <th>Hossz</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="macskak.js"></script>
+    <footer>
+        &#169; Minden jog fenntartva.
+    </footer>
+</body>
+</html>
